@@ -1,0 +1,38 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+/* reset.css, 각각의 태그들이 가지고 있는 기본 속성들을 초기화 */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', 'Open Sans';
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 { /* container 내부에 있는 h2 태그에게만 적용 */
+    color: white;
+    background: #000;
+    padding: 1rem;
+}
+
+.btn {
+    font-family: inherit;
+    letter-spacing: 0.1rem; /* 자간 */
+    text-transform: uppercase;
+    background: transparent;
+
+    border: 2px dashed black;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.75rem 1.25rem; /* 상하, 좌우*/
+}

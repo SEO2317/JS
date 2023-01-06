@@ -1,0 +1,22 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h2 id="title">클릭 이벤트를 붙여보자</h2>
+
+    <p>숫자가 1씩 올라가게 해주세요.</p>
+ 
+  <div class="container">
+    <button class="btn" id="btnplus">INCREASE</button>
+    <button class="btn"id="btnreset">RESET</button>
+    <button class="btn"id="btnminus">DECREASE</button>
+  </div>
+</body>
+</html>-->
